@@ -71,10 +71,16 @@ vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 
+# Audio configs
+vendor/etc/audio_ext_spkr.conf
+vendor/etc/audio_io_policy.conf
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/etc/bt_stack_debug.conf
+vendor/etc/bt_stack_level6.conf
 vendor/lib/libbtnv.so
 vendor/lib/libsoc_helper.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -355,6 +361,13 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
+vendor/etc/gnss_antenna_info.conf
+vendor/etc/gps.conf
+vendor/etc/xtwifi.conf
+vendor/etc/flp.conf
+vendor/etc/izat.conf
+vendor/etc/lowi.conf
+vendor/etc/sap.conf
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
@@ -904,6 +917,7 @@ vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
+vendor/etc/sensors/hals.conf
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
@@ -1063,6 +1077,11 @@ vendor/lib64/libwvhidl.so
 vendor/bin/cnss-daemon
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
+vendor/etc/wifi/icm.conf
+vendor/etc/wifi/p2p_supplicant_overlay.conf
+vendor/etc/wifi/wfdr2_regex.conf
+vendor/etc/wifi/wpa_supplicant_overlay.conf
+vendor/etc/wifi/wpa_supplicant.conf
 
 # WiFi Display (system) - from dada OS2.0.217.0.WOCMIXM
 system/framework/WfdCommon.jar;BOOT_JAR|76fab5ed43206989057284fa26e8b894f1da102f
