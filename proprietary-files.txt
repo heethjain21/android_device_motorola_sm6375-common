@@ -364,7 +364,6 @@ vendor/bin/xtra-daemon
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
 vendor/etc/xtwifi.conf
-vendor/etc/flp.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
