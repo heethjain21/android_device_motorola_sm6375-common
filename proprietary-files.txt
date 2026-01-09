@@ -1074,7 +1074,6 @@ vendor/etc/wifi/icm.conf
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wfdr2_regex.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant.conf
 
 # WiFi Display (system) - from dada OS2.0.217.0.WOCMIXM
 system/framework/WfdCommon.jar;BOOT_JAR|76fab5ed43206989057284fa26e8b894f1da102f
