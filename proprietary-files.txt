@@ -361,7 +361,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
-vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
 vendor/etc/xtwifi.conf
 vendor/etc/izat.conf
