@@ -361,11 +361,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
-vendor/etc/gps.conf
-vendor/etc/xtwifi.conf
-vendor/etc/izat.conf
-vendor/etc/lowi.conf
-vendor/etc/sap.conf
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
