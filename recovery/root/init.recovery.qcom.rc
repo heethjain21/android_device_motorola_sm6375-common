@@ -37,7 +37,3 @@ on property:ro.boot.usbcontroller=*
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
-
-# Load touch firmware for NVT touchscreen
-on boot
-    exec u:r:recovery:s0 -- /system/bin/cat /proc/nvt_update
