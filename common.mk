@@ -200,8 +200,14 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm \
     vendor.lineage.livedisplay-service.sysfs
 
-$(call soong_config_set,livedisplay_sdm,enable_dm,false)
-$(call soong_config_set,livedisplay_sysfs,enable_se,true)
+$(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
+$(call soong_config_set_bool,livedisplay_sysfs,enable_se,true)
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/module/qpnp_adaptive_charge/parameters/charging_enabled)
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -212,7 +218,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_PATH)/media/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml
 
-$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+$(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,true)
 
 # Moto hardware
 PRODUCT_PACKAGES += \
